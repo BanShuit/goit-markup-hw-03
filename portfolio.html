@@ -4,35 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Main Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
     <header>
         <nav>
-            <a class="logo link" href="./index.html">Web<span class="studio-logo">Studio</span></a>
-            <ul class="list">
-                <li><a class="nav link" href="./index.html">Studio</a></li>
-                <li><a class="nav link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="nav link" href="">Contacts</a></li>
-            </ul>
+            <div class="top-menu">
+                <a class="logo link" href="./index.html">Web<span class="studio-logo">Studio</span></a>
+                <ul class="list">
+                    <div class="links">
+                        <li><a class="nav link" href="./index.html">Studio</a></li>
+                        <li><a class="nav link" href="./portfolio.html">Portfolio</a></li>
+                        <li><a class="nav link" href="">Contacts</a></li>
+                    </div>
+                </ul>
+            </div>
         </nav>
         <address class="contacts">
             <ul class="list">
-                <li><a class="contacts-top link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                <li><a class="contacts-top link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <div class="top-contact">
+                    <li><a class="contacts-top link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="contacts-top link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </div>
             </ul>
         </address>
     </header>
     <main>
         <section>
-            <h1>Heading</h1>
+            <h1></h1>
+            <div class="s-button">
             <ul class="list">
                 <li><button class="button-one" type="button">All</button></li>
                 <li><button class="button-one" type="button">Web Site</button></li>
@@ -40,9 +50,10 @@
                 <li><button class="button-one" type="button">Design</button></li>
                 <li><button class="button-one" type="button">Marketing</button></li>
             </ul>
+            </div>
             <ul class="list">
                 <li>
-                    <a class="link" >
+                    <a class="link">
                         <img src="./images/imagesa1.jpg" alt="App" width="360" height="300">
                         <h2 class="heading-portfolio-one">Banking App Interface Concept</h2>
                         <p class="paragraph-portfolio">App</p>
@@ -71,17 +82,15 @@
                 </li>
                 <li>
                     <a class="link">
-                        <img src="./images/imagesb2.jpg" alt="purple wallpaper on the phone" width="360"
-                            height="300">
+                        <img src="./images/imagesb2.jpg" alt="purple wallpaper on the phone" width="360" height="300">
                         <h2 class="heading-portfolio-one">Screen Illustrations</h2>
                         <p class="paragraph-portfolio">Design</p>
                     </a>
                 </li>
                 <li>
                     <a class="link">
-                        <img src="./images/imagesb3.jpg" alt="happy woman in yellow sweater" width="360"
-                            height="300">
-                            <h2 class="heading-portfolio-one">Online Courses</h2>
+                        <img src="./images/imagesb3.jpg" alt="happy woman in yellow sweater" width="360" height="300">
+                        <h2 class="heading-portfolio-one">Online Courses</h2>
                         <p class="paragraph-portfolio">Marketing</p>
                     </a>
                 </li>
@@ -110,11 +119,14 @@
         </section>
     </main>
     <footer class="footer">
-        <a class="logo link">Web<span class="studio-two">Studio</span></a>
-        <p class="paragraph-footer">Increase the flow of customers and <br> sales for your business with digital <br>
-            marketing &
-            growth solutions.</p>
+        <div class="top-menu">
+            <a class="logo link">Web<span class="studio-two">Studio</span></a>
+        </div>
+        <div class="info">
+            <p class="paragraph-footer">Increase the flow of customers and <br> sales for your business with digital <br>
+                marketing &
+                growth solutions.</p>
+        </div>
     </footer>
 </body>
-
 </html>
