@@ -1,0 +1,230 @@
+body {
+    background-color: #FFFFFF;
+    color: #434455;
+    color: var(--brand-color);
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    color: var(--marka-color);
+}
+
+.link:active {
+    color: var(--marka-color);
+}
+
+.link:focus {
+    color: var(--marka-color);
+}
+:root {
+    --brand-color: #434455;
+    --color-text: #2e2f42;
+    --marka-color: #404BBF;
+    --button-one: #4d5ae5;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    letter-spacing: 0.03em;
+
+}
+
+
+.studio-logo {
+    color: #2E2F42;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.button-one {
+    background-color: #F4F4FD;
+    color: var(--button-one);
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button-one:hover {
+    background-color: var(--marka-color);
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-one:visited {
+    background-color: var(--marka-color);
+    color: #FFFFFF;
+}
+
+.button-one:active {
+    background-color: var(--marka-color);
+    color: #FFFFFF;
+}
+
+.button-one:focus {
+    background-color: var(--marka-color);
+    color: #FFFFFF;
+}
+
+.heading-portfolio-one {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    text-decoration: none;
+}
+
+.paragraph-portfolio {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+footer {
+    background-color: #2E2F42;
+}
+
+.paragraph-footer {
+    color: #F4F4FD;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.studio-two {
+    color: #F4F4FD;
+}
+
+.contacts-top {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts-top:hover,
+.contacts-top:active {
+    color: var(--marka-color);
+}
+
+.section-one {
+    background-color: #2E2F42;
+    color: #FFFFFF
+}
+
+.head-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button-two {
+    background-color: var(--button-one);
+    color: var(--White , #FFFFFF);
+    text-align: center;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.button-two:focus {
+    background-color: var(--marka-color);
+}
+
+.button-two:hover {
+    background-color: var(--marka-color);
+}
+
+.heading-section-one {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.head-two-selection {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+
+.paragraph-selection {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
+}
+
+.head-twoss {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-text);
+}
+
+.list-name {
+    background-color: #FFFFFF;
+}
+.selection-four {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    background-color: #F4F4FD;
+}
+.p-selection-four {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+main a {
+    text-decoration: none;
+}
+ul.list li button {
+    text-decoration: none;
+}
+.four-class-one{
+    color: #2E2F42;
+        font-size: 20px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
