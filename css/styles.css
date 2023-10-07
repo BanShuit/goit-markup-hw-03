@@ -3,16 +3,19 @@
 *::after {
     box-sizing: border-box;
 }
-.top-menu{
+
+.top-menu {
     display: flex;
     margin-left: 156px;
     margin-top: 24px;
 }
-.top-contact{
+
+.top-contact {
     display: flex;
     margin-top: 24px;
     gap: 40px;
 }
+
 body {
     background-color: #FFFFFF;
     color: #434455;
@@ -20,16 +23,20 @@ body {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
 }
-header{
-border-bottom: 2px solid #E7E9FC;
+
+header {
+    border-bottom: 2px solid #E7E9FC;
 }
-.s-button{
-text-align: center;
+
+.s-button {
+    text-align: center;
 
 }
+
 .link {
     text-decoration: none;
 }
+
 .link:hover {
     color: var(--marka-color);
 }
@@ -41,17 +48,19 @@ text-align: center;
 .link:focus {
     color: var(--marka-color);
 }
+
 :root {
     --brand-color: #434455;
     --color-text: #2e2f42;
     --marka-color: #404BBF;
     --button-one: #4d5ae5;
 }
+
 header {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 16px 24px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
 }
 
 .logo {
@@ -65,7 +74,8 @@ padding: 16px 24px ;
     display: flex;
     align-items: center;
 }
-address{
+
+address {
     position: absolute;
     top: 24;
     right: 156px;
@@ -79,10 +89,11 @@ address{
 .list {
     list-style: none;
 }
-.links{
-display: flex;
-margin-top: 24px;
-gap: 40px;
+
+.links {
+    display: flex;
+    margin-top: 24px;
+    gap: 40px;
 }
 
 .nav {
@@ -93,6 +104,7 @@ gap: 40px;
     font-weight: 500;
     display: flex;
 }
+
 .nav.link {
     text-decoration: none;
     color: #2e2f42;
@@ -150,7 +162,7 @@ gap: 40px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
     text-decoration: none;
 }
 
@@ -168,9 +180,10 @@ footer {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
-.footer-text{
+
+.footer-text {
     padding-left: 156px;
 }
 
@@ -183,6 +196,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .contacts-top:nth-child(1) {
     margin-top: 24px;
 }
@@ -204,6 +218,7 @@ footer {
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
+
 .order-service {
     margin: 0 auto;
     display: inline-block;
@@ -212,7 +227,7 @@ footer {
 
 .button-two {
     background-color: var(--button-one);
-    color: var(--White , #FFFFFF);
+    color: var(--White, #FFFFFF);
     text-align: center;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
@@ -237,6 +252,7 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
 .selection-two ul.list {
     display: flex;
     flex-direction: row;
@@ -244,18 +260,21 @@ footer {
     align-items: flex-start;
     gap: 8px;
 }
+
 .selection-two li {
     flex: 1;
 }
-.info{
+
+.info {
     display: flex;
     margin: auto;
-    flex-direction:row;
+    flex-direction: row;
     gap: 24px;
     margin-left: 156px;
     text-align: justify;
-    
+
 }
+
 .head-two-selection {
     font-weight: 500;
     font-size: 20px;
@@ -269,17 +288,20 @@ footer {
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
+
 .selection-three ul.list {
     display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
 }
+
 .selection-three li {
     flex: 1;
     list-style: none;
 }
+
 .selection-three img {
     max-width: 100%;
     height: auto;
@@ -293,16 +315,20 @@ footer {
     text-transform: capitalize;
     color: var(--color-text);
 }
-.pictrue{
+
+.pictrue {
     display: inline-flex;
     margin-left: 156px;
     gap: 24px;
     margin: auto;
+    height: auto;
 }
+
 .list-name {
     background-color: #FFFFFF;
     text-align: center;
 }
+
 .selection-four ul.list {
     font-weight: 500;
     font-size: 20px;
@@ -319,35 +345,42 @@ footer {
     padding-left: 156px;
     margin-right: 156px;
 }
+
 .p-selection-four {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
 }
+
 .selection-four li {
     flex: 0 0 auto;
     width: 264px;
     margin-right: 24px;
 }
+
 .selection-four li:last-child {
     margin-right: 0;
 }
+
 .selection-four img {
     max-width: 100%;
     height: auto;
 }
+
 main a {
     text-decoration: none;
 }
+
 ul.list li button {
     text-decoration: none;
 }
-.four-class-one{
+
+.four-class-one {
     color: #2E2F42;
-        font-size: 20px;
-        font-family: Roboto;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
