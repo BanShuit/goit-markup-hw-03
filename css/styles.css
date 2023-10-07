@@ -3,6 +3,16 @@
 *::after {
     box-sizing: border-box;
 }
+.top-menu{
+    display: flex;
+    margin-left: 156px;
+    margin-top: 24px;
+}
+.top-contact{
+    display: flex;
+    margin-top: 24px;
+    gap: 40px;
+}
 body {
     background-color: #FFFFFF;
     color: #434455;
@@ -10,7 +20,13 @@ body {
     font-style: normal;
     font-family: 'Roboto', sans-serif;
 }
+header{
+border-bottom: 2px solid #E7E9FC;
+}
+.s-button{
+text-align: center;
 
+}
 .link {
     text-decoration: none;
 }
@@ -31,6 +47,12 @@ body {
     --marka-color: #404BBF;
     --button-one: #4d5ae5;
 }
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 16px 24px ;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -40,7 +62,13 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     letter-spacing: 0.03em;
-
+    display: flex;
+    align-items: center;
+}
+address{
+    position: absolute;
+    top: 24;
+    right: 156px;
 }
 
 
@@ -51,16 +79,33 @@ body {
 .list {
     list-style: none;
 }
+.links{
+display: flex;
+margin-top: 24px;
+gap: 40px;
+}
 
 .nav {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42
+    color: #2e2f42;
+    font-weight: 500;
+    display: flex;
+}
+.nav.link {
+    text-decoration: none;
+    color: #2e2f42;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contacts {
     font-style: normal;
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
 }
 
 .list {
@@ -123,6 +168,10 @@ footer {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
+}
+.footer-text{
+    padding-left: 156px;
 }
 
 .studio-two {
@@ -134,6 +183,9 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.contacts-top:nth-child(1) {
+    margin-top: 24px;
+}
 
 .contacts-top:hover,
 .contacts-top:active {
@@ -142,7 +194,7 @@ footer {
 
 .section-one {
     background-color: #2E2F42;
-    color: #FFFFFF
+    text-align: center;
 }
 
 .head-one {
@@ -150,6 +202,12 @@ footer {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.order-service {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
 }
 
 .button-two {
@@ -162,6 +220,7 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    align-items: flex-start;
 }
 
 .button-two:focus {
@@ -178,7 +237,25 @@ footer {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-
+.selection-two ul.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+.selection-two li {
+    flex: 1;
+}
+.info{
+    display: flex;
+    margin: auto;
+    flex-direction:row;
+    gap: 24px;
+    margin-left: 156px;
+    text-align: justify;
+    
+}
 .head-two-selection {
     font-weight: 500;
     font-size: 20px;
@@ -192,6 +269,21 @@ footer {
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
+.selection-three ul.list {
+    display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 24px;
+}
+.selection-three li {
+    flex: 1;
+    list-style: none;
+}
+.selection-three img {
+    max-width: 100%;
+    height: auto;
+}
 
 .head-twoss {
     font-size: 36px;
@@ -201,23 +293,49 @@ footer {
     text-transform: capitalize;
     color: var(--color-text);
 }
-
+.pictrue{
+    display: inline-flex;
+    margin-left: 156px;
+    gap: 24px;
+    margin: auto;
+}
 .list-name {
     background-color: #FFFFFF;
+    text-align: center;
 }
-.selection-four {
+.selection-four ul.list {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #F4F4FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    list-style: none;
+    padding-left: 156px;
+    margin-right: 156px;
 }
 .p-selection-four {
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+}
+.selection-four li {
+    flex: 0 0 auto;
+    width: 264px;
+    margin-right: 24px;
+}
+.selection-four li:last-child {
+    margin-right: 0;
+}
+.selection-four img {
+    max-width: 100%;
+    height: auto;
 }
 main a {
     text-decoration: none;
