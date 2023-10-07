@@ -88,6 +88,14 @@ address {
 
 .list {
     list-style: none;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 24px;
+}
+.box {
+    flex: 1 0 calc(33.33% - 24px);
+    margin-left: 156px;
 }
 
 .links {
@@ -121,6 +129,9 @@ address {
 }
 
 .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
 }
 
@@ -321,12 +332,18 @@ footer {
     margin-left: 156px;
     gap: 24px;
     margin: auto;
-    height: auto;
+    text-align: center;
+    flex-shrink: 0;
+}
+.pictrue img {
+    width: 100%;
+        height: auto;
 }
 
 .list-name {
     background-color: #FFFFFF;
     text-align: center;
+    margin: 10px;
 }
 
 .selection-four ul.list {
@@ -351,6 +368,7 @@ footer {
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+    text-align: center;
 }
 
 .selection-four li {
