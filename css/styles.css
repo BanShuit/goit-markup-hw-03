@@ -72,6 +72,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    justify-content: center;
 }
 
 .button-one:hover {
@@ -102,12 +103,14 @@ body {
     letter-spacing: 0.02em;
     color:#2e2f42;
     text-decoration: none;
+    text-align: left;
 }
 
 .paragraph-portfolio {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align:left;
 }
 
 footer {
@@ -137,7 +140,7 @@ footer {
 
 .section-one {
     background-color: #2E2F42;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 .head-one {
@@ -157,6 +160,7 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    
 }
 
 .button-two:focus {
@@ -180,6 +184,9 @@ footer {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
+    text-align: center;
+    justify-content: flex-start;
+    
 }
 
 .paragraph-selection {
@@ -220,6 +227,10 @@ main a {
 ul.list li button {
     text-decoration: none;
 }
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
 .four-class-one{
     color: #2E2F42;
         font-size: 20px;
@@ -227,4 +238,30 @@ ul.list li button {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+}
+.text-team {
+    justify-content: center;
+    display: flex;
+        width: 264px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+}
+.logo-up{
+    margin-left: 156px;
+    margin-top: 25.5px;
+}
+.container{
+width: 1440px;
+    height: 72px;
+    flex-shrink: 0;
+    text-align: left;
+    margin-left: 156px;
+    margin-top: 25.5px;
+}
+.imagese {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    flex-basis: calc((100% - 1px) /3);
 }
