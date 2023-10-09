@@ -30,7 +30,6 @@ padding-right: 15px;*/
 }*/
 .link {
     text-decoration: none;
-    margin-bottom: 16px;
 }
 .link:hover {
     color: var(--marka-color);
@@ -83,11 +82,9 @@ display: block ruby;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration:none;
-    margin-right: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 24px 0 ;
 }
 
 .contacts {
@@ -100,7 +97,7 @@ display: block ruby;
         color: #2E2F42;
         text-decoration: none;
         padding: 24px 0;
-        display: block ruby;
+margin-left: auto;
 }
 
 
@@ -115,7 +112,7 @@ display: block ruby;
     line-height: 1.5;
     letter-spacing: 0.04em;
     justify-content: center;
-    border-radius: 4px
+    border-radius: 4px;
 }
 
 .button-one:hover {
@@ -296,8 +293,9 @@ ul.list li button {
     text-decoration: none;
 }
 ul{
-    display: flex;
-    flex-wrap: wrap;
+list-style: none;
+padding: 0;
+margin: 0;
 }
 .four-class-one{
     color: #2E2F42;
@@ -390,14 +388,11 @@ padding-bottom: 120px;
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        width: calc((100% - 48px) / 3);
 }
 img{
     display: block;
 }
-.padding-24 {
-    padding: 24px 0;
-}
+
 .text-under-image{
     border: 1px solid var(--cornflower-color);
         border-top: none;
