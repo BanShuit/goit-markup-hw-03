@@ -73,7 +73,8 @@ padding-right: 15px;*/
 list-style: none;
 display: flex;
 gap: 40px;
-flex-basis: calc((100% - 3 * 24px) / 4)
+flex-basis: calc((100% - 3 * 24px) / 4);
+display: block ruby;
 }
 
 .nav {
@@ -99,6 +100,7 @@ flex-basis: calc((100% - 3 * 24px) / 4)
         color: #2E2F42;
         text-decoration: none;
         padding: 24px 0;
+        display: block ruby;
 }
 
 
