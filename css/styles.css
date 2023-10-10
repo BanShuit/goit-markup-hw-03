@@ -11,7 +11,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25.5px 156px;
+    padding: 24px 0 ;
 }
 .header{
 border-bottom: 1px solid var(--cornflower-color);
@@ -104,6 +104,9 @@ margin-left: auto;
 button {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-one {
@@ -303,6 +306,11 @@ list-style: none;
 padding: 0;
 margin: 0;
 }
+ul ol {
+list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
 .four-class-one{
     color: #2E2F42;
     font-family: Roboto;
@@ -398,7 +406,9 @@ padding-bottom: 120px;
         row-gap: 48px;
 }
 img{
-    display: block;
+display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .text-under-image{
@@ -466,4 +476,13 @@ flex-basis: calc((100% - 3 * 24px) / 4)
     display: flex;
     gap: 40px;
     white-space: nowrap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
 }
