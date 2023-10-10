@@ -376,6 +376,7 @@ padding-bottom: 120px;
         align-items: center;
         gap: 40px;
         margin-left: 332px;
+        white-space: nowrap;
 }
 .section-portfolio{
     padding-top: 96px;
