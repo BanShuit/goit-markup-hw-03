@@ -109,7 +109,6 @@ padding-right: 15px;*/
 }
 
 button {
-    padding: 12px 24px;
     border: 1px solid #e7e9fc;
     cursor: pointer;
     border: none;
@@ -252,7 +251,6 @@ footer {
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
-    text-align: center;
     justify-content: flex-start;
 
 }
@@ -262,6 +260,7 @@ footer {
     letter-spacing: 0.02em;
     color: var(--brand-color);
     margin-bottom: 8px;
+    
 }
 
 .head-twoss {
@@ -337,14 +336,6 @@ ul ol {
     margin-bottom: 8px;
 }
 
-.text-team {
-    justify-content: center;
-    display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-}
 
 .logo-up {
     margin-left: 156px;
@@ -442,8 +433,6 @@ img {
     border: 1px solid var(--cornflower-color);
     border-top: none;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
 }
 
 .section-one-padding {
@@ -456,8 +445,6 @@ img {
     max-width: 496px;
     /*margin: 0 auto;*/
     margin-bottom: 48px;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .selection-two-padding {
