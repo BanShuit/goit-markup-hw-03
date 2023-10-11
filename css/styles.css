@@ -69,7 +69,6 @@ padding-right: 15px;*/
     display: inline-block;
 }
 
-
 .studio-logo {
     color: #2E2F42;
     font-weight: bold;
@@ -190,7 +189,6 @@ footer {
     color: #434455;
 }
 
-
 .contacts-top:hover,
 .contacts-top:active {
     color: var(--marka-color);
@@ -276,7 +274,6 @@ footer {
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-
 }
 
 .list-name {
@@ -399,7 +396,6 @@ ul ol {
 .menu-header {
     display: flex;
     justify-content: space-between;
-
 }
 
 .list-contact {
