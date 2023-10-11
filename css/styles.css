@@ -26,6 +26,7 @@ padding-right: 15px;*/
     display: flex;
     align-items: center;
     /*padding: 24px 0;*/
+    padding: 24px 0;
 }
 
 /*.menu-header-padding {
@@ -260,6 +261,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
+    margin-bottom: 8px;
 }
 
 .head-twoss {
@@ -372,6 +374,7 @@ ul ol {
     justify-content: center;
     align-items: center;
     gap: 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .visually-hidden {
@@ -404,6 +407,7 @@ ul ol {
     gap: 40px;
     margin-left: 332px;
     white-space: nowrap;
+    padding: 24px 0;
 }
 
 .section-portfolio {
@@ -439,6 +443,7 @@ img {
     border-top: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .section-one-padding {
