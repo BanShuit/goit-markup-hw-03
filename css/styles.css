@@ -125,6 +125,8 @@ button {
     letter-spacing: 0.04em;
     justify-content: center;
     border-radius: 4px;
+    padding: 12px 24px 12px;
+    border: 1px solid #e7e9fc;
 }
 
 .button-one:hover {
@@ -415,7 +417,6 @@ ul ol {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-    padding: 12px 24px;
     border: 1px solid#E7E9FC;
     border-radius: 4px;
 }
