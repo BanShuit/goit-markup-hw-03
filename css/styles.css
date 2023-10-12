@@ -379,6 +379,14 @@ ul ol {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.text-team {
+    justify-content: center;
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
 
 .border {
     border: 1px solid #e7e9fc;
