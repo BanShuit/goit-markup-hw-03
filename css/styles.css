@@ -96,9 +96,7 @@ padding: 24px 0 24px;
 
 .contacts {
     font-family: Roboto;
-    font-size: 16px;
     font-style: normal;
-    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -315,6 +313,8 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    gap: 40px;
 }
 
 ul ol {
@@ -419,7 +419,6 @@ ul ol {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-    border: 1px solid#E7E9FC;
     border-radius: 4px;
 }
 
@@ -428,7 +427,7 @@ ul ol {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    border: 1px solid #e7e9fc
+
 }
 
 img {
@@ -473,6 +472,7 @@ margin: 0 auto 48px auto;
 
 .style-ul {
     gap: 24px;
+    display: flex;
 }
 
 .tree-section {
