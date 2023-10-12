@@ -426,13 +426,13 @@ ul ol {
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    border: 1px solid #e7e9fc
 }
 
 img {
     display: block;
     max-width: 100%;
     height: auto;
-    border: 1px solid #e7e9fc
 }
 
 .text-under-image {
