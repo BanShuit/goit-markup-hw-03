@@ -51,6 +51,7 @@ padding-right: 15px;*/
     --color-text: #2e2f42;
     --marka-color: #404BBF;
     --button-one: #4d5ae5;
+    --cornflower-color :#E7E9FC ;
 }
 
 .logo {
@@ -63,8 +64,9 @@ padding-right: 15px;*/
     color: #4d5ae5;
     font-style: normal;
     margin-right: 76px;
-    display: inline-block;
-    margin-bottom: 16px;
+}
+.logo-footer {
+
 }
 
 .studio-logo {
@@ -72,7 +74,7 @@ padding-right: 15px;*/
     font-weight: bold;
 }
 
-.list {
+s.list {
     list-style: none;
     display: flex;
     gap: 40px;
@@ -89,7 +91,7 @@ padding: 24px 0 24px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 12px 24px;
+    padding: 24px 0
 }
 
 .contacts {
@@ -101,7 +103,6 @@ padding: 24px 0 24px;
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
-    padding: 24px 0;
     margin-left: auto;
 }
 
@@ -125,8 +126,8 @@ button {
     letter-spacing: 0.04em;
     justify-content: center;
     border-radius: 4px;
-    padding: 12px 24px 12px;
-    border: 1px solid #e7e9fc;
+    padding: 12px 24px;
+    border: 1px solid var(--cornflower-color);
 }
 
 .button-one:hover {
@@ -251,6 +252,7 @@ footer {
     line-height: 1.2;
     color: #2e2f42;
     justify-content: flex-start;
+    margin-bottom: 8px;
 
 }
 
@@ -486,10 +488,6 @@ margin: 0 auto 48px auto;
 .img-text {
     padding: 32px 0;
     text-align: center;
-}
-
-.capition {
-    margin-bottom: 8px;
 }
 
 .style-ul li:first-child {
