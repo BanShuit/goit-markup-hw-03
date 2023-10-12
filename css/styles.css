@@ -64,9 +64,12 @@ padding-right: 15px;*/
     color: #4d5ae5;
     font-style: normal;
     margin-right: 76px;
+    display: inline-block;
+        margin-bottom: 16px;
 }
 .logo-footer {
-
+display: inline-block;
+margin-bottom: 16px;
 }
 
 .studio-logo {
@@ -344,8 +347,8 @@ ul ol {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .column {
@@ -398,6 +401,8 @@ ul ol {
 .menu-header {
     display: flex;
     justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
 }
 
 .list-contact {
