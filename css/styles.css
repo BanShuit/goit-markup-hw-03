@@ -82,6 +82,7 @@ s.list {
     gap: 40px;
     flex-basis: calc((100% - 3 * 24px) / 4);
 padding: 24px 0 24px;
+margin-bottom: 8px
 }
 
 .nav {
@@ -511,5 +512,4 @@ letter-spacing: 0.02em;
 line-height: 1.2;
 color: #2e2f42;
 justify-content: flex-start;
-margin-bottom: 8px;
 }
