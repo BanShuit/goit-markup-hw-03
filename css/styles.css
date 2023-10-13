@@ -245,15 +245,6 @@ footer {
     letter-spacing: 0.02em;
 }
 
-.head-two-selection {
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    color: #2e2f42;
-    justify-content: flex-start;
-}
-
 .paragraph-selection {
     line-height: 1.5;
     letter-spacing: 0.02em;
