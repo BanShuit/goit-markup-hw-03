@@ -452,7 +452,6 @@ margin: 0 auto 48px auto;
 }
 
 .list-style {
-    display: flex;
     gap: 24px;
     width: calc((100% - 72px) / 4);
 }
