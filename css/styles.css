@@ -65,7 +65,6 @@ padding-right: 15px;*/
     font-style: normal;
     margin-right: 76px;
     display: inline-block;
-        margin-bottom: 16px;
 }
 .logo-footer {
 margin-bottom: 16px;
@@ -228,7 +227,7 @@ footer {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    margin-left: 636px;
+margin: 0 auto;
 }
 
 .button-two:focus {
@@ -333,9 +332,11 @@ ul ol {
 }
 
 .container {
-    max-width: 1158px;
+max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    
+
 }
 
 .column {
